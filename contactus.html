@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>intro to html5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>intro tp html5 course</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Frontend Experiments</h1>
+            <nav>
+             <a href="index.html">home</a>
+             <a href="projects.html">Projects</a>
+             <a href="contactus.html" class="active">Contactus</a>
+            </nav>
+        </header>
+        <main>
+<form action="" method="POST" novalidate>
+    <div>
+        <h3>Registration form</h3>
+    </div>
+    <div>
+        <label for="username">username</label>
+        <input type="text" class="userform" placeholder="please enter your username" required>
+    </div>
+    <div>
+        <label for="email">email</label>
+        <input type="email" class="userform" placeholder="please enter your email" required>
+    </div>
+    <div>
+        <label for="dob">dob</label>
+        <input type="datetime-local" class="userform"  required>
+    </div>
+    <div>
+        <label for="age">age</label>
+        <input type="number" class="userform" min="1" max="125" required>
+    </div>
+    <div>
+        <label for="password">password</label>
+        <input type="password" class="userform"  required>
+    </div>
+    <div>
+        <label for="gender">gender</label>
+        <input type="radio" class="userform" name="gender"> male
+        <input type="radio" class="userform" name="gender"> female
+        <input type="radio" class="userform" name="gender"> others
+    </div>
+    <div>
+        <label for="language">languages can speak</label>
+        <input type="checkbox" class="userform" name="language"> telugu
+        <input type="checkbox" class="userform" name="language"> hindi
+        <input type="checkbox" class="userform" name="language"> english
+        <input type="checkbox" class="userform" name="language"> tamil
+        <input type="checkbox" class="userform" name="language"> malayalam
+    </div>
+    <div>
+        <label>choose your country</label>
+        <select name="country" id="">
+            <option value="india">INDIA</option> 
+            <option value="uk">UK</option> 
+            <option value="usa">USA</option> 
+        </select>
+
+    </div>
+    <div>
+        <label for="feedback">feedback</label>
+        <textarea name="feedback" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="upload">upload resume</label>
+        <input type="file" name="resume"  id="resume" accept=".jpeg,.pdf,.word,.doc">
+    </div>
+    <div>
+        <button>submit</button>
+    </div>
+</form>   
+  </main>
+<hr/> 
+        <footer>
+<p>copyright@jstraining.com</p>
+        </footer>
+
+    </body>
+</html>
